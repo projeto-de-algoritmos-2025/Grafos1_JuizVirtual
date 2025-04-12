@@ -13,3 +13,11 @@ class Solution:
         # Dijkstra com heap de min caminho a partir do no 0
         heap = [(-maxMoves, 0)] 
         visited = {}
+        
+        while heap:
+            moves_left, node = heapq.heappop(heap)
+            moves_left = -moves_left  # Inverter o sinal para trabalhar com números positivos
+
+            if node in visited:
+                continue
+            visited[node] = moves_left
