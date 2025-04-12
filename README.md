@@ -1,6 +1,6 @@
 # Juiz Virtual
 
-**Número da Lista**: X<br>
+**Número da Lista**: 1<br>
 **Conteúdo da Disciplina**: Grafos 1 <br>
 
 ## Alunos
@@ -12,10 +12,11 @@
 ## Sobre 
 Para explorar o conteúdo do tópico de Grafos 1, a dupla escolheu dois exercícios na plataforma online [LeetCode](https://leetcode.com/): dois de nível difícil.
 
-- [882 (Difícil)](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph)
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+- [882 (Difícil)](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph)
+![PrintResolucao882](print882.jpg)
 
 ## Instalação 
 **Linguagem**: Python<br>
