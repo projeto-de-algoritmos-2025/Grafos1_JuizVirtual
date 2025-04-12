@@ -27,6 +27,18 @@ class Solution:
                 # verifica se tem vizinho pra add na fila
                 if nei not in visited and moves_left > cnt:
                     heapq.heappush(heap, (-(moves_left - cnt - 1), nei))
+                    
         # contador dos nos alcancaveis 
         result = len(visited)
 
+        # contador de nos intermediarios 
+        used_edges = {}
+        for u in graph:
+            for v in graph[u]:
+                if u < v:
+                    used_u = visited.get(u, 0)
+                    used_v = visited.get(v, 0)
+                    max_used = min(graph[u][v], used_u + used_v)
+                    result += max_used
+
+        return result
