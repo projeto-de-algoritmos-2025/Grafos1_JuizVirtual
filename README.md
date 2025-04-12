@@ -12,7 +12,7 @@
 ## Sobre 
 Para explorar o conteúdo do tópico de Grafos 1, a dupla escolheu dois exercícios na plataforma online [LeetCode](https://leetcode.com/): dois de nível difícil.
 
-- [2065 (Difícil)](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/)
+- [882 (Difícil)](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph)
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
