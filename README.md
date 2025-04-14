@@ -10,7 +10,7 @@
 | 22/2021924 | Víctor Hugo Lima Schmidt               |
 
 ## Sobre 
-Para explorar o conteúdo do tópico de Grafos 1, a dupla escolheu dois exercícios na plataforma online [LeetCode](https://leetcode.com/): dois de nível difícil.
+Para explorar o conteúdo do tópico de Grafos 1, a dupla escolheu dois exercícios na plataforma online [LeetCode](https://leetcode.com/): dois de nível difícil e dois de nível médio, para igualar o trabalho de cada um dos membros.
 
 
 ## Screenshots
@@ -23,14 +23,11 @@ Para explorar o conteúdo do tópico de Grafos 1, a dupla escolheu dois exercíc
 
 ## Instalação 
 **Linguagens**: Python, C++<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 
 ## Uso 
 Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
 
 ## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
-
-
-
+### Informações sobre os desafios
+#### [Sliding Puzzle - 773(Difícil)](https://leetcode.com/problems/sliding-puzzle/)
+Para resolver o exercício, eu modelei cada configuração do tabuleiro como um nó num grafo implícito e usei BFS para explorar em camadas, serializando o tabuleiro em uma string e trocando o ‘0’ com posições vizinhas para gerar novos nós. Em seguida, mantive um conjunto de estados visitados para evitar revisitar configurações, contei os níveis da BFS para obter o mínimo de movimentos e retornei a distância quando cheguei ao estado “123450” ou –1 se não fosse alcançável.
