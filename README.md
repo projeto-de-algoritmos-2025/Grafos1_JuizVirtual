@@ -16,7 +16,9 @@ Para explorar o conteúdo do tópico de Grafos 1, a dupla escolheu dois exercíc
 ## Screenshots
 
 - [882 (Difícil)](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph)
-![PrintResolucao882](print882.jpg)
+![PrintResolucao882](assets/print882.jpg)
+
+- [773 (Difícil)](https://leetcode.com/problems/sliding-puzzle/description/)
 
 ## Instalação 
 **Linguagem**: Python<br>
