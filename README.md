@@ -18,10 +18,11 @@ Para explorar o conteúdo do tópico de Grafos 1, a dupla escolheu dois exercíc
 - [882 (Difícil)](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph)
 ![PrintResolucao882](assets/print882.jpg)
 
-- [773 (Difícil)](https://leetcode.com/problems/sliding-puzzle/description/)
+- [773 (Difícil)](https://leetcode.com/problems/sliding-puzzle/)
+![PrintResolucao773](assets/print773.jpg)
 
 ## Instalação 
-**Linguagem**: Python<br>
+**Linguagens**: Python, C++<br>
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 
 ## Uso 
