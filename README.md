@@ -16,7 +16,7 @@ Para explorar o conteúdo do tópico de Grafos 1, a dupla escolheu dois exercíc
 ## Screenshots
 
 ### [882 (Difícil)](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph)
-
+Modelei o problema como um grafo ponderado onde as arestas possuem subdivisões representando nós intermediários. Usei Dijkstra com uma fila de prioridade invertida para explorar os caminhos a partir do nó 0, mantendo o número máximo de movimentos restantes em cada visita. Registrei os nós visitados e, ao final, contei tanto os nós originais alcançados quanto os intermediários usados em cada aresta, somando ambos para obter o total de nós alcançáveis.
 ![PrintResolucao882](/assets/print882.jpg)
 
 ### [773 (Difícil)](https://leetcode.com/problems/sliding-puzzle/)
