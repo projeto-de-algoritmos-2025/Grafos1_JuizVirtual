@@ -16,10 +16,13 @@ Para explorar o conteúdo do tópico de Grafos 1, a dupla escolheu dois exercíc
 ## Screenshots
 
 - [882 (Difícil)](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph)
-![PrintResolucao882](assets/print882.jpg)
+![PrintResolucao882](/assets/print882.jpg)
 
 - [773 (Difícil)](https://leetcode.com/problems/sliding-puzzle/)
-![PrintResolucao773](assets/print773.jpg)
+![PrintResolucao773](/assets/print773.jpg)
+
+- [133 (Médio)](https://leetcode.com/problems/clone-graph/)
+![PrintResolucao133](/assets/print133.png)
 
 ## Instalação 
 **Linguagens**: Python, C++<br>
