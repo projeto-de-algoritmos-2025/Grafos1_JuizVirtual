@@ -44,7 +44,7 @@ https://github.com/user-attachments/assets/9a33738b-ff84-48c8-923e-b918adeb3c5a
 
 
 ## Instalação 
-**Linguagens**: Python, C++<br>
+**Linguagens**: Python, C++ e C<br>
 
 ## Uso 
 Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
